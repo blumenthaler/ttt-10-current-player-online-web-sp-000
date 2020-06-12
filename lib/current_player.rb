@@ -5,7 +5,7 @@ def turn_count(board)
 # iterate board array, assigning move to elements
   board.each do |move|
 # iterate over each space of the board, seeing if any spaces are taken
-    if board(move) == "X" || board(move) == "O"
+    if move == "X" || move == "O"
 # increment number of turns by 1 
       turns += 1 
     end 
