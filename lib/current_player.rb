@@ -16,7 +16,9 @@ def current_player(board)
   
 # if turn count is even number, return "X", otherwise "O"
   if turns % 2 == 0 
-    
+    return "X"
+  else
+    return "O"
   end 
 end 
 
