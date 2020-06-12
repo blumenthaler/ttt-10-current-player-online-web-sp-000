@@ -12,7 +12,7 @@ end
 def current_player(board)
   
 # uses #turn_count to determine who's turn it is 
-  turn_count(board)
+  turns = turn_count(board)
   
 # if turn count is even number, return "X", otherwise "O"
   if turns % 2 == 0 
