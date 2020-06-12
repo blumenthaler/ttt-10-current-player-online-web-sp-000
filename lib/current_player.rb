@@ -14,3 +14,16 @@ def turn_count(board)
   turns
 end 
 
+# define #current_player method, takes argument of board
+def current_player(board)
+# uses #turn_count to determine who's turn it is 
+  turn_count(board)
+# if turn count is even number, return "X", otherwise "O"
+
+
+end 
+
+
+
+
+
